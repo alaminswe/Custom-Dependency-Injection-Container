@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.sourcelink.json
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\bin\Debug\net10.0\Dependency Injection (DI) Container.exe
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\bin\Debug\net10.0\Dependency Injection (DI) Container.deps.json
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\bin\Debug\net10.0\Dependency Injection (DI) Container.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\bin\Debug\net10.0\Dependency Injection (DI) Container.dll
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\bin\Debug\net10.0\Dependency Injection (DI) Container.pdb
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.dll
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\refint\Dependency Injection (DI) Container.dll
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.pdb
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\Dependency Injection (DI) Container.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\ServerCamp\Dependency Injection (DI) Container\obj\Debug\net10.0\ref\Dependency Injection (DI) Container.dll
