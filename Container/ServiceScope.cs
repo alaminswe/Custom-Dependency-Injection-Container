@@ -1,9 +1,11 @@
 namespace DependencyInjection.Container;
 
-public class ServiceScope
+public class ServiceScope : IDisposable
 {
     private readonly ServiceProvider _rootProvider;
-    private readonly Dictionary<Type, object> _scopedInstances = [];
+    private readonly Dictionary<Type, object> _scopedInstances = new();
+    private bool _disposed = false;
+
     public ServiceScope(ServiceProvider rootProvider)
     {
         _rootProvider = rootProvider;
@@ -19,6 +21,26 @@ public class ServiceScope
 
     public object? GetService(Type serviceType)
     {
+        if (_disposed)
+            throw new ObjectDisposedException(nameof(ServiceScope), "Cannot resolve services from a disposed scope.");
+
         return _rootProvider.GetService(serviceType, _scopedInstances);
+    }
+
+    public void Dispose()
+    {
+        if (_disposed)
+            return; 
+
+        foreach (var instance in _scopedInstances.Values)
+        {
+            if (instance is IDisposable disposable)
+            {
+                disposable.Dispose();
+            }
+        }
+
+        _scopedInstances.Clear();
+        _disposed = true;
     }
 }
